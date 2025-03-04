@@ -29,7 +29,7 @@ public class Graph {
 
         List<Integer> stableNodes = new ArrayList<>();
         for (int i = 0; i < k; i++) stableNodes.add(n - 1 - i);
-=
+
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
                 if (!cliqueNodes.contains(i) && !cliqueNodes.contains(j) &&
