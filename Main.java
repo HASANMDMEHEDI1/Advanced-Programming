@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Minimum degree (δ): " + graph.getMinDegree());
         System.out.println("Degree sum check: " + graph.isDegreeSumValid());
 
-        if (n <= 50) {
+        if (n <= 30_000) {
             System.out.println("Adjacency Matrix:");
             graph.printMatrix();
         } else {
