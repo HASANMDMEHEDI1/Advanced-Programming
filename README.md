@@ -14,7 +14,8 @@ Graph.java - Creates the graph.
 
 GraphUtils.java - Computes properties.
 
-Command line java -cp out com.mycompany.homework_1.Main 10 4
+Command line 
+java -cp out com.mycompany.homework_1.Main 10 4
 
 Output: Number of edges (m): 6
 
